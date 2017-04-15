@@ -1,0 +1,39 @@
+<resources xmlns:xliff="http://schemas.android.com/apk/res-auto">
+
+    <!-- **************** TRANSLATABLE ***************** -->
+
+    <string name="stock_detail_name">Historial de stock</string>
+
+    <!-- DIALOG-->
+
+    <string name="dialog_title">Añadir Stock</string>
+    <string name="dialog_hint">Símbolo (e.g. GOOG)</string>
+    <string name="dialog_cancel">Cancelar</string>
+    <string name="dialog_add">Añadir</string>
+
+
+    <!-- CONTENT DESCRIPTION  -->
+    <!-- Preferences -->
+    <string name="cd_dollar_display">Presionar para mostrar el cambio en valor absoluto</string>
+    <string name="cd_percentage_display">Presionar para mostrar el cambio con porcentaje</string>
+    <!-- Main -->
+    <string name="cd_add_stock">Añadir nuevo stock</string>
+    <string name="cd_stock_resume_up">Stock (<xliff:g id="stock_symbol">%1$s</xliff:g>) con valor (<xliff:g id="stock_price">%2$s</xliff:g>) ha subido (<xliff:g id="stock_percentage">%3$s</xliff:g>)</string>
+    <string name="cd_stock_resume_down">Stock (<xliff:g id="stock_symbol">%1$s</xliff:g>) con valor (<xliff:g id="stock_price">%2$s</xliff:g>) ha bajado (<xliff:g id="stock_percentage">%3$s</xliff:g>)</string>
+    <string name="cd_stock_resume_up_complete">Stock (<xliff:g id="stock_symbol">%1$s</xliff:g>) with price (<xliff:g id="stock_price">%2$s</xliff:g>) and has been increase (<xliff:g id="stock_absolute">%3$s</xliff:g>) in absolute and (<xliff:g id="stock_percentage">%4$s</xliff:g>)</string>
+    <string name="cd_stock_resume_down_complete">Stock (<xliff:g id="stock_symbol">%1$s</xliff:g>) with price (<xliff:g id="stock_price">%2$s</xliff:g>) and has suffered a drop of (<xliff:g id="stock_absolute">%3$s</xliff:g>) in absolute and (<xliff:g id="stock_percentage">%4$s</xliff:g>)</string>
+    <!-- Detail -->
+    <string name="cd_stock_history">Historial del stock en los últimos dos años</string>
+    <string name="cd_stock_up">Stock ha subido (<xliff:g id="stock_number">%1$s</xliff:g>)</string>
+    <string name="cd_stock_down">Stock ha bajado (<xliff:g id="stock_number">%1$s</xliff:g>)</string>
+
+
+    <!-- ERROR MESSAGE-->
+    <string name="error_no_network">No stock information available. The network is not available to fetch stock data.</string>
+    <string name="error_no_stocks">No has añadido ningún stock. Pulsa el botón + para </string>
+    <string name="toast_no_connectivity">No puedes recargar la información de los stock.  No estás conectado a niguna red de datos.</string>
+    <string name="toast_stock_added_no_connectivity">Stock %s añadido. Podrás verlo cuando estés conectado a alguna red.</string>
+    <string name="error_stock_no_exist">El stock no existe</string>
+
+
+</resources>

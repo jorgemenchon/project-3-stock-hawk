@@ -1,0 +1,29 @@
+<resources>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="zero_width">0dp</dimen>
+    <dimen name="percentage_change_horizontal">3dp</dimen>
+    <dimen name="price_margin_end">10dp</dimen>
+    <dimen name="symbol_start">3dp</dimen>
+    <dimen name="stock_change_padding_start">6dp</dimen>
+    <dimen name="stock_change_percentage_padding_start">6dp</dimen>
+    <dimen name="stock_change_text_size">25sp</dimen>
+    <dimen name="stock_change_percentage_text_size">25sp</dimen>
+    <dimen name="graph_min_height">200dp</dimen>
+
+    <!-- DIALOG / BUTTON -->
+    <dimen name="margin_button">16dp</dimen>
+    <dimen name="elevation_button">0dp</dimen>
+    <dimen name="pressed_translation_z_button">12dp</dimen>
+    <dimen name="dialog_horizontal_margin">4dp</dimen>
+    <dimen name="dialog_top_margin">16dp</dimen>
+    <dimen name="dialog_bottom_margin">4dp</dimen>
+
+    <!-- WIDGET -->
+    <dimen name="widget_default_width">250dp</dimen>
+    <dimen name="widget_default_height">180dp</dimen>
+    <dimen name="widget_min_resize_width">220dp</dimen>
+    <dimen name="widget_min_resize_height">@dimen/widget_default_height</dimen>
+    <dimen name="widget_title_text_size">20sp</dimen>
+
+</resources>

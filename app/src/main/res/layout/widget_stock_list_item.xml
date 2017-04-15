@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/widget_list_item"
+    android:layout_width="match_parent"
+    android:layout_height="?android:attr/listPreferredItemHeight"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:paddingEnd="@dimen/activity_vertical_margin"
+    android:paddingStart="@dimen/activity_vertical_margin">
+
+    <TextView
+        android:id="@+id/tv_symbol_widget"
+        style="@style/StockSymbolTextStyleWidget"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="start|center_vertical"
+        tools:text="GOOG" />
+
+    <LinearLayout
+        android:layout_width="@dimen/zero_width"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="end">
+
+        <TextView
+            android:id="@+id/tv_price_widget"
+            style="@style/BidPriceTextStyleWidget"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="10dp"
+            tools:text="1000.00" />
+
+        <TextView
+            android:id="@+id/tv_change_widget"
+            style="@style/PercentChangeTextStyleWidget"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingEnd="@dimen/percentage_change_horizontal"
+            android:paddingStart="@dimen/percentage_change_horizontal"
+            tools:text="100%" />
+
+        <TextView
+            android:id="@+id/tv_change_percentage_widget"
+            style="@style/PercentChangeTextStyleWidget"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingEnd="@dimen/percentage_change_horizontal"
+            android:paddingStart="@dimen/percentage_change_horizontal"
+            tools:text="100%" />
+
+    </LinearLayout>
+</LinearLayout>

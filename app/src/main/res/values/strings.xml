@@ -1,0 +1,53 @@
+<resources xmlns:xliff="http://schemas.android.com/apk/res-auto">
+    <!-- **************** UNTRANSLATABLE ***************** -->
+    <string name="app_name" translatable="false">Stock Hawk</string>
+    <string name="action_change_units" translatable="false">@string/pref_display_mode_key</string>
+    <string name="widget_name" translatable="false">Stock Hawk Widget</string>
+
+    <!--- PREFERENCES -->
+    <string name="pref_stocks_initialized_key" translatable="false">initialized</string>
+    <string name="pref_stocks_key" translatable="false">stocks</string>
+    <string name="pref_display_mode_key" translatable="false">displayMode</string>
+    <string name="pref_display_mode_default" translatable="false">@string/pref_display_mode_percentage_key</string>
+    <string name="pref_display_mode_absolute_key" translatable="false">absolute</string>
+    <string name="pref_display_mode_percentage_key" translatable="false">percentage</string>
+
+    <!-- DEFAULT STOCK -->
+    <string name="default_stocks_yahoo" translatable="false">YHOO</string>
+    <string name="default_stocks_apple" translatable="false">AAPL</string>
+    <string name="default_stocks_microsoft" translatable="false">MSFT</string>
+    <string name="default_stocks_facebook" translatable="false">FB</string>
+
+    <!-- **************** TRANSLATABLE ***************** -->
+
+    <string name="stock_detail_name">Stock History</string>
+
+    <!-- DIALOG-->
+    <string name="dialog_title">Add Stock</string>
+    <string name="dialog_hint">Symbol (e.g. GOOG)</string>
+    <string name="dialog_cancel">Cancel</string>
+    <string name="dialog_add">Add</string>
+
+    <!-- CONTENT DESCRIPTION  -->
+    <!-- Preferences -->
+    <string name="cd_dollar_display">Press to show change in absolute</string>
+    <string name="cd_percentage_display">Press to show change with percentage</string>
+    <!-- Main -->
+    <string name="cd_add_stock">Add new stock</string>
+    <string name="cd_stock_resume_up">Stock (<xliff:g id="stock_symbol">%1$s</xliff:g>) with price (<xliff:g id="stock_price">%2$s</xliff:g>) and has been increase in (<xliff:g id="stock_change">%3$s</xliff:g>)</string>
+    <string name="cd_stock_resume_down">Stock (<xliff:g id="stock_symbol">%1$s</xliff:g>) with price (<xliff:g id="stock_price">%2$s</xliff:g>) and has suffered a drop of (<xliff:g id="stock_change">%3$s</xliff:g>)</string>
+    <string name="cd_stock_resume_up_complete">Stock (<xliff:g id="stock_symbol">%1$s</xliff:g>) with price (<xliff:g id="stock_price">%2$s</xliff:g>) and has been increase in (<xliff:g id="stock_absolute">%3$s</xliff:g>)  ain absolute and (<xliff:g id="stock_percentage">%4$s</xliff:g>)</string>
+    <string name="cd_stock_resume_down_complete">Stock (<xliff:g id="stock_symbol">%1$s</xliff:g>) with price (<xliff:g id="stock_price">%2$s</xliff:g>) and has suffered a drop of (<xliff:g id="stock_absolute">%3$s</xliff:g>) in absolute and (<xliff:g id="stock_percentage">%4$s</xliff:g>)</string>
+    <!-- Detail -->
+    <string name="cd_stock_history">Stock history over last two years</string>
+    <string name="cd_stock_up">Stock has been increase in (<xliff:g id="stock_number">%1$s</xliff:g>)</string>
+    <string name="cd_stock_down">Stock has suffered a drop of (<xliff:g id="stock_number">%1$s</xliff:g>)</string>
+
+    <!-- ERROR MESSAGES-->
+    <string name="error_no_network">No internet connection. No stock information available. </string>
+    <string name="error_no_stocks">No stocks added. Hit the plus button to add one.</string>
+    <string name="toast_no_connectivity">No internet connection. Couldn\'t refresh stocks.</string>
+    <string name="toast_stock_added_no_connectivity">Stock %s added. You could see it when you\'ll have internet connection.</string>
+    <string name="error_stock_no_exist">This stock doesn\'t exists</string>
+
+</resources>
