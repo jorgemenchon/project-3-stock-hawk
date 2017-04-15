@@ -7,6 +7,8 @@
     android:gravity="center_vertical"
     android:orientation="horizontal"
     android:paddingEnd="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_vertical_margin"
+    android:paddingRight="@dimen/activity_vertical_margin"
     android:paddingStart="@dimen/activity_vertical_margin">
 
     <TextView
@@ -28,7 +30,8 @@
             style="@style/BidPriceTextStyleWidget"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginEnd="10dp"
+            android:layout_marginEnd="@dimen/widget_tv_price"
+            android:layout_marginRight="@dimen/widget_tv_price"
             tools:text="1000.00" />
 
         <TextView
@@ -37,6 +40,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:paddingEnd="@dimen/percentage_change_horizontal"
+            android:paddingLeft="@dimen/percentage_change_horizontal"
+            android:paddingRight="@dimen/percentage_change_horizontal"
             android:paddingStart="@dimen/percentage_change_horizontal"
             tools:text="100%" />
 
@@ -46,6 +51,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:paddingEnd="@dimen/percentage_change_horizontal"
+            android:paddingLeft="@dimen/percentage_change_horizontal"
+            android:paddingRight="@dimen/percentage_change_horizontal"
             android:paddingStart="@dimen/percentage_change_horizontal"
             tools:text="100%" />
 

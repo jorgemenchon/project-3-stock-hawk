@@ -189,7 +189,9 @@ public final class QuoteSyncJob {
             if (GeneralUtils.isValid(stock) && GeneralUtils.hasHistory(stock, YEARS_OF_HISTORY)) {
                 exists = true;
             }
-        } catch (IOException e) {
+        }
+        catch (Exception e){
+            return false;
         }
         return exists;
     }
